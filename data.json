@@ -1,0 +1,76 @@
+{
+  "employees": [
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "jobTitle": "Data Scientist",
+      "phone": "987-654-3210",
+      "imageUrl": "https://www.wikihow.com/images/9/90/What_type_of_person_are_you_quiz_pic.png",
+      "employeeCode": "f320888d-1237-4d4d-ad65-2c59625f7355"
+    },
+    {
+      "id": "4",
+      "name": "Kofi Davis",
+      "email": "emily.davis@example.com",
+      "jobTitle": "Product Manager",
+      "phone": "777-777-7777",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pierre-Person.jpg",
+      "employeeCode": "d9e97338-c851-45c6-8c03-71c57dc19351"
+    },
+    {
+      "id": "5",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "jobTitle": "Data Scientist",
+      "phone": "987-654-3210",
+      "imageUrl": "https://bootdey.com/img/Content/avatar/avatar7.png",
+      "employeeCode": "9c8cc860-dd4f-41a5-bd63-86a8f6ba2561"
+    },
+    {
+      "id": "6",
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "jobTitle": "UX Designer",
+      "phone": "555-555-5555",
+      "imageUrl": "https://cdn.nba.com/headshots/nba/latest/1040x760/445.png",
+      "employeeCode": "56a7b727-76ef-477d-9506-9abc7fb7fd09"
+    },
+    {
+      "id": "7",
+      "name": "Ama Davis",
+      "email": "ama.davis@example.com",
+      "jobTitle": "UI/UXD",
+      "phone": "777-777-7777",
+      "imageUrl": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627770.png",
+      "employeeCode": "decf29f3-88d9-4725-a0bf-45f5df08b997"
+    },
+    {
+      "id": "8",
+      "name": "Kofi Davis",
+      "email": "danielkojoforson27@gmail.com",
+      "jobTitle": "UI/UXD",
+      "phone": "2345768",
+      "imageUrl": "https://hoopshype.com/wp-content/uploads/sites/92/2019/02/i_3c_d8_11_richard-solomon.png?w=190",
+      "employeeCode": "21d0e8d6-e9d9-47a8-a6a4-7545575ee12e"
+    },
+    {
+      "id": "10",
+      "name": "Great",
+      "email": "danielkojoforson27@gmail.com",
+      "jobTitle": "UI/UXD",
+      "phone": "sdokoaoko",
+      "imageUrl": "https://b.fssta.com/uploads/application/nba/headshots/3599.png",
+      "employeeCode": "307619e6-a416-4f6a-98ad-91234b7b5f3c"
+    },
+    {
+      "name": "Kofi Davis",
+      "id": "840d",
+      "userCode": "",
+      "email": "ygyayyfaffyy@gmail.com",
+      "jobTitle": "UI/UXD",
+      "phone": "2345768",
+      "imageurl": "https://w7.pngwing.com/pngs/442/17/png-transparent-computer-icons-user-profile-male-user-heroes-head-silhouette-thumbnail.png"
+    }
+  ]
+}
