@@ -17,28 +17,26 @@ export class AppComponent implements OnInit {
   public employees: Employee[] = [];
   public editEmployee: Employee | undefined | null;
   public deleteEmployee: Employee | null = null;
+  public searchIterm: string = '';
+  public filteredEmployees: Employee[] = [];
+
 
   constructor(private employeeService: EmployeeService) {}
 
   ngOnInit() {
     this.getEmployees();
   }
+  filterEmployees(): void {
+    this.filteredEmployees = this.employees.filter(employee =>
+      employee.name.toLowerCase().includes(this.searchIterm.toLowerCase())
+    );
+  }
 
-  // public getEmployees(): void {
-  //   this.employeeService.getEmployees().subscribe(
-  //     (response: Employee[]) => {
-  //       this.employees = response;
-  //       console.log(this.employees);
-  //     },
-  //     (error: HttpErrorResponse) => {
-  //       alert(error.message);
-  //     }
-  //   );
-  // }
 
   getEmployees(): void {
   this.employeeService.getEmployees().subscribe(employees => {
-  this.employees = employees;
+    this.employees = employees;
+    this.filteredEmployees = [...this.employees];
   console.log(employees);
   });
   }
